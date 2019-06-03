@@ -20,7 +20,7 @@ The application makes use of [Yolo](https://pjreddie.com/darknet/yolo/) along wi
 
 ### Running the application
 
-Start the program with a video file __detection_input.avi__ and an mp3-sound __siren.mp3__ in the same directory.
+Start the program with a video file __detection_input.avi__ and an mp3-sound __siren.mp3__.
 ```bash
 python ROI.py
 ```
