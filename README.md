@@ -27,7 +27,7 @@ python ROI.py
 
 ### Usage
 Use the mouse to draw a box on the video frame, press enter and the application will run the detection process in this selected area.
-It will play an alarm sound when specific objects are recognized: *person, car, motorbike*
+It will play an alarm sound when specific objects are recognized
 + The sound can be stopped with 'Q'
 + The application can be closed with 'ESC'
 
