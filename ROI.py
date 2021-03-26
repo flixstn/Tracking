@@ -2,10 +2,17 @@
 import numpy as np
 import cv2
 import vlc
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-i', '--input', help='input for analyzing')
+parser.add_argument('-s', '--sound', help='set alarm sound')
+
+args = vars(parser.parse_args())
 
 # Initialize video reading and the media player for the alarm sound
-capInp = cv2.VideoCapture('detection_input.avi')
-sound_file = vlc.MediaPlayer('siren.mp3')
+capInp = cv2.VideoCapture(args.get('input'))
+sound_file = vlc.MediaPlayer(args.get('sound'))
 
 # For writing the video to a file, opt-in the VideoWriter-object as well as
 # 'capOut.write(frame)' and 'capOut.release()' below
