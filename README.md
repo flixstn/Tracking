@@ -8,12 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependencies.
+Use `requirements.txt` and `get_models.sh` to install dependencies.
 
 ```bash
-pip install opencv-python
-pip install python-vlc
-pip install numpy
+pip3 install -r requirements.txt
+./get_models.sh
 ```
 
 The application makes use of [Yolo](https://pjreddie.com/darknet/yolo/) along with the [config-file](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg), the networks [weights](https://pjreddie.com/media/files/yolov3.weights) and the [COCO dataset](http://cocodataset.org/#home)
