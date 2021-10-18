@@ -31,5 +31,5 @@ It will play an alarm sound when specific objects are recognized
 * The application can be closed with 'ESC'
 
 ### Possible test files
-* Motorbike video: [Pixabay](https://pixabay.com/en/videos/scooters-traffic-street-motorcycle-5638/)
-* Alarm sound: [Freesound](https://freesound.org/people/israra/sounds/434055/)
+* Video: [Pixabay](https://pixabay.com/en/videos/scooters-traffic-street-motorcycle-5638/)
+* Sound: [Freesound](https://freesound.org/people/israra/sounds/434055/)
