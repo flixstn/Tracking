@@ -19,17 +19,17 @@ The application makes use of [Yolo](https://pjreddie.com/darknet/yolo/) along wi
 
 ### Running the application
 
-Start the program with a video file __detection_input.avi__ and an mp3-sound __siren.mp3__.
+Start the program and provide a video and mp3 file.
 ```bash
-python ROI.py
+python ROI.py -i input_file -s sound_file
 ```
 
 ### Usage
 Use the mouse to draw a box on the video frame, press enter and the application will run the detection process in this selected area.
 It will play an alarm sound when specific objects are recognized
-+ The sound can be stopped with 'Q'
-+ The application can be closed with 'ESC'
+* The sound can be stopped with 'Q'
+* The application can be closed with 'ESC'
 
-### Licenses / Copyrights
-Motorbike video origin: [Pixabay](https://pixabay.com/en/videos/scooters-traffic-street-motorcycle-5638/)<br>
-Alarm sound origin: [Freesound](https://freesound.org/people/israra/sounds/434055/)
+### Possible test files
+* Motorbike video: [Pixabay](https://pixabay.com/en/videos/scooters-traffic-street-motorcycle-5638/)
+* Alarm sound: [Freesound](https://freesound.org/people/israra/sounds/434055/)
